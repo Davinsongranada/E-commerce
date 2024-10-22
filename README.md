@@ -47,5 +47,20 @@ Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas 
 
 - Notificaciones: Los usuarios recibirán notificaciones sobre sus compras, productos en descuento y actualizaciones de la tienda.
 
+## 4. Arquitectura del Sistema
+### 4.1. Frontend
+- Tecnologías: HTML5, CSS3, JavaScript (React.js para la web y React Native para la app móvil).
+
+- Diseño: Se seguirá una línea de diseño minimalista y responsive para garantizar una experiencia óptima en diferentes dispositivos [Figma](https://www.figma.com/design/A3KoujBUIqteQV57sBjjCn/Untitled?node-id=0-1&t=4s4Ux9s6VtK198nL-1).
+
+### 4.2. Backend
+- Tecnologías: Node.js con Express.js para la gestión del servidor, junto con bases de datos SQL (MySQL o PostgreSQL) para el almacenamiento de la información de usuarios y productos.
+
+Autenticación y seguridad: Autenticación basada en JWT (JSON Web Tokens) para el control de sesiones, y cifrado de contraseñas usando bcrypt.
+
+### 4.3. Base de Datos
+Sistema de Gestión de Base de Datos: MySQL o PostgreSQL.
+Tablas principales: Usuarios, productos, categorías, pedidos, pagos.
+
 
 
