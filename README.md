@@ -51,23 +51,23 @@ Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas 
 ### 4.1. Frontend
 - ### Tecnologías:
 - #### Página web: 
-HTML5, CSS, JavaScript (React.js para la web).
+    HTML5, CSS, JavaScript (React.js para la web).
 - #### App movil:
-xml.
+    xml.
 
 - ### Diseño: 
-Se seguirá una línea de diseño minimalista y responsive para garantizar una experiencia óptima en diferentes dispositivos [Figma](https://www.figma.com/design/A3KoujBUIqteQV57sBjjCn/Untitled?node-id=0-1&t=4s4Ux9s6VtK198nL-1).
+    Se seguirá una línea de diseño minimalista y responsive para garantizar una experiencia óptima en diferentes dispositivos [Figma](https://www.figma.com/design/A3KoujBUIqteQV57sBjjCn/Untitled?node-id=0-1&t=4s4Ux9s6VtK198nL-1).
 
 ### 4.2. Backend
 - ### Tecnologías: 
-Python: facilitando la base de datos.
+    Python: facilitando la base de datos.
 
 ### 4.3. Base de Datos
 - ### Sistema de Gestión de Base de Datos: 
-SQLite para la facilidad de mostrar el proyecto.
+    SQLite para la facilidad de mostrar el proyecto.
 
 - ### Tablas principales: 
-Usuarios, productos, categorías, pedidos, pagos.
+    Usuarios, productos, categorías, pedidos, pagos.
 
 
 
