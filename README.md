@@ -60,7 +60,7 @@ Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas 
 
 ### 4.2. Backend
 - ### Tecnologías: 
-    Python: facilitando la base de datos.
+    Python, facilitando la base de datos.
 
 ### 4.3. Base de Datos
 - ### Sistema de Gestión de Base de Datos: 
