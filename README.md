@@ -26,19 +26,26 @@ Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas 
 **3. Descripción del Proyecto**
 
 > El E-commerce estará dividido en dos plataformas principales:
-<div style="border:1px solid black; padding:10px;">
+
 1. Página Web: El sitio web será accesible desde cualquier navegador, permitiendo a los usuarios navegar por las categorías de productos, registrarse, iniciar sesión, añadir productos al carrito y realizar compras.
 
 2. Aplicación Móvil: La aplicación móvil, disponible para dispositivos iOS y Android, contará con las mismas funcionalidades que el sitio web, pero optimizada para su uso en smartphones, con un enfoque en la facilidad de uso y rapidez.
-</div>
-3.1. Funcionalidades Clave
-Registro e inicio de sesión: Los usuarios podrán registrarse con su correo electrónico y contraseña, así como iniciar sesión para acceder a su historial de compras, carrito y lista de deseos.
-Carrito de compras: Los productos seleccionados se guardarán en el carrito de compras hasta que el usuario decida proceder al pago.
-Guardado de productos: Los usuarios podrán guardar productos en su carrito y revisarlos posteriormente para completar su compra.
-Interfaz limpia y minimalista: El diseño de la plataforma se centra en la simplicidad, facilitando la navegación y permitiendo que los usuarios encuentren lo que buscan de manera rápida y sin distracciones.
-Búsqueda avanzada: El sistema de búsqueda ayudará a los usuarios a encontrar productos mediante filtros como categorías, precios, y marcas.
-Pasarela de pago: Se implementarán diversas opciones de pago (tarjetas de crédito/débito, pagos en línea) para que los usuarios puedan completar su compra de forma rápida y segura.
-Notificaciones: Los usuarios recibirán notificaciones sobre sus compras, productos en descuento y actualizaciones de la tienda.
+
+### 3.1. Funcionalidades Clave
+
+- Registro e inicio de sesión: Los usuarios podrán registrarse con su correo electrónico y contraseña, así como iniciar sesión para acceder a su historial de compras, carrito y lista de deseos.
+
+- Carrito de compras: Los productos seleccionados se guardarán en el carrito de compras hasta que el usuario decida proceder al pago.
+
+- Guardado de productos: Los usuarios podrán guardar productos en su carrito y revisarlos posteriormente para completar su compra.
+
+- Interfaz limpia y minimalista: El diseño de la plataforma se centra en la simplicidad, facilitando la navegación y permitiendo que los usuarios encuentren lo que buscan de manera rápida y sin distracciones.
+
+- Búsqueda avanzada: El sistema de búsqueda ayudará a los usuarios a encontrar productos mediante filtros como categorías, precios, y marcas.
+
+- Pasarela de pago: Se implementarán diversas opciones de pago (tarjetas de crédito/débito, pagos en línea) para que los usuarios puedan completar su compra de forma rápida y segura.
+
+- Notificaciones: Los usuarios recibirán notificaciones sobre sus compras, productos en descuento y actualizaciones de la tienda.
 
 
 
