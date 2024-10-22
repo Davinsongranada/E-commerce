@@ -26,11 +26,11 @@ Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas 
 **3. Descripción del Proyecto**
 
 > El E-commerce estará dividido en dos plataformas principales:
-
+```
 1. Página Web: El sitio web será accesible desde cualquier navegador, permitiendo a los usuarios navegar por las categorías de productos, registrarse, iniciar sesión, añadir productos al carrito y realizar compras.
 
 2. Aplicación Móvil: La aplicación móvil, disponible para dispositivos iOS y Android, contará con las mismas funcionalidades que el sitio web, pero optimizada para su uso en smartphones, con un enfoque en la facilidad de uso y rapidez.
-
+```
 ### 3.1. Funcionalidades Clave
 
 - Registro e inicio de sesión: Los usuarios podrán registrarse con su correo electrónico y contraseña, así como iniciar sesión para acceder a su historial de compras, carrito y lista de deseos.
