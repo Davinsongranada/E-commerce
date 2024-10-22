@@ -49,9 +49,11 @@ Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas 
 
 ## 4. Arquitectura del Sistema
 ### 4.1. Frontend
-- Tecnologías:
-#### Página web: HTML5, CSS, JavaScript (React.js para la web).
-#### App movil: xml.
+### Tecnologías:
+#### Página web: 
+HTML5, CSS, JavaScript (React.js para la web).
+#### App movil:
+xml.
 
 
 - Diseño: Se seguirá una línea de diseño minimalista y responsive para garantizar una experiencia óptima en diferentes dispositivos [Figma](https://www.figma.com/design/A3KoujBUIqteQV57sBjjCn/Untitled?node-id=0-1&t=4s4Ux9s6VtK198nL-1).
