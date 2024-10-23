@@ -1,5 +1,4 @@
 import { useRoutes, BrowserRouter } from "react-router-dom";
-import { ContextProvider } from "../../Context/Context";
 import Home from "../Home/Home";
 import MyAccount from "../MyAccount/MyAccount";
 import MyOrder from "../MyOrder/MyOrder";
@@ -7,6 +6,8 @@ import MyOrders from "../MyOrders/MyOrders";
 import NotFound from "../NotFound/NotFound";
 import SingIn from "../SingIn/SingIn";
 import Navbar from "../../Components/Navbar/Navbar";
+import ContextProvider from "../../Context/Context";
+
 import "./App.css";
 
 const AppRoutes = () => {
