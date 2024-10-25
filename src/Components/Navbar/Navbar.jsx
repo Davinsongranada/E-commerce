@@ -3,20 +3,15 @@ import { useContext } from "react";
 import { ShoppingCartContext } from "../../Context/Context";
 import { ShoppingCartIcon } from "@heroicons/react/24/solid";
 
-
-
 export default function Navbar() {
-  const context = useContext(ShoppingCartContext)
+  const context = useContext(ShoppingCartContext);
   const activeStyle = "underline underline-offset-3";
 
   return (
     <nav className="flex justify-between items-center fixed z-10 top-0   w-full py-5 px-8 text-sm font-light">
       <ul className="flex items-center gap-3">
         <li className="font-semibold text-lg">
-          <NavLink
-            to="/">
-            Shop
-          </NavLink>
+          <NavLink to="/">Shop</NavLink>
         </li>
         <li>
           <NavLink
@@ -76,18 +71,10 @@ export default function Navbar() {
             Sing In
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? activeStyle : undefined)}
-          >
-            <li className="flex">
-            <ShoppingCartIcon className="h-6 w-6 text-black"></ShoppingCartIcon> 
-            <div>
-            {context.count}
-            </div>
-            </li>
-          </NavLink>
+        <li className="flex">
+          <ShoppingCartIcon className="h-6 w-6 text-black">
+          </ShoppingCartIcon>
+          <div>{context.count}</div>
         </li>
       </ul>
     </nav>

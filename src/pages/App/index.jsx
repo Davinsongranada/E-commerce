@@ -7,6 +7,7 @@ import NotFound from "../NotFound/NotFound";
 import SingIn from "../SingIn/SingIn";
 import Navbar from "../../Components/Navbar/Navbar";
 import ContextProvider from "../../Context/Context";
+import CheckoutSideMenu from "../../Components/CheckoutSideMenu/CheckoutSideMenu";
 
 import "./App.css";
 
@@ -29,6 +30,7 @@ const App = () => {
       <BrowserRouter>
         <AppRoutes />
         <Navbar />
+        <CheckoutSideMenu/>
       </BrowserRouter>
     </ContextProvider>
   );
