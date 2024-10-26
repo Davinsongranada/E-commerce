@@ -17,7 +17,6 @@ Desarrollar una plataforma E-commerce (web y aplicación móvil) que permita la 
 - Facilitar la búsqueda y navegación de productos mediante una interfaz de usuario limpia y organizada.
 
 - Desarrollar una funcionalidad de carrito de compras donde los usuarios puedan guardar productos para comprarlos posteriormente.
-Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas de crédito, débito, transferencias).
 
 - Garantizar que tanto la aplicación móvil como la web ofrezcan una experiencia de usuario optimizada y responsive.
 
@@ -39,9 +38,6 @@ Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas 
 
 - Interfaz limpia y minimalista: El diseño de la plataforma se centra en la simplicidad, facilitando la navegación y permitiendo que los usuarios encuentren lo que buscan de manera rápida y sin distracciones.
 
-- Pasarela de pago: Se implementarán diversas opciones de pago (tarjetas de crédito/débito, pagos en línea) para que los usuarios puedan completar su compra de forma rápida y segura.
-
-- Notificaciones: Los usuarios recibirán notificaciones sobre sus compras, productos en descuento y actualizaciones de la tienda.
 
 ## 4. Arquitectura del Sistema
 ### 4.1. Frontend
