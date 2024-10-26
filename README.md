@@ -1,4 +1,4 @@
-# Proyecto de Desarrollo Web y Aplicación Móvil: E-commerce de Electrodomésticos y Hogar
+# Proyecto de Desarrollo Web y Aplicación Móvil: E-commerce de Electrodomésticos y Articulos para el Hogar
 
 
 **1. Introducción**
@@ -21,15 +21,13 @@ Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas 
 
 - Garantizar que tanto la aplicación móvil como la web ofrezcan una experiencia de usuario optimizada y responsive.
 
-- Implementar medidas de seguridad para garantizar la protección de la información de los usuarios y las transacciones.
-
 **3. Descripción del Proyecto**
 
  El E-commerce estará dividido en dos plataformas principales:
 
 > 1. Página Web: El sitio web será accesible desde cualquier navegador, permitiendo a los usuarios navegar por las categorías de productos, registrarse, iniciar sesión, añadir productos al carrito y realizar compras.
 
-> 2. Aplicación Móvil: La aplicación móvil, disponible para dispositivos iOS y Android, contará con las mismas funcionalidades que el sitio web, pero optimizada para su uso en smartphones, con un enfoque en la facilidad de uso y rapidez.
+> 2. Aplicación Móvil: La aplicación móvil, disponible para dispositivos Android, contará con las mismas funcionalidades que el sitio web, pero optimizada para su uso en smartphones, con un enfoque en la facilidad de uso y rapidez.
 
 ### 3.1. Funcionalidades Clave
 
@@ -40,8 +38,6 @@ Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas 
 - Guardado de productos: Los usuarios podrán guardar productos en su carrito y revisarlos posteriormente para completar su compra.
 
 - Interfaz limpia y minimalista: El diseño de la plataforma se centra en la simplicidad, facilitando la navegación y permitiendo que los usuarios encuentren lo que buscan de manera rápida y sin distracciones.
-
-- Búsqueda avanzada: El sistema de búsqueda ayudará a los usuarios a encontrar productos mediante filtros como categorías, precios, y marcas.
 
 - Pasarela de pago: Se implementarán diversas opciones de pago (tarjetas de crédito/débito, pagos en línea) para que los usuarios puedan completar su compra de forma rápida y segura.
 
@@ -64,7 +60,7 @@ Crear un sistema de pagos integrado que soporte varias formas de pago (tarjetas 
 
 ### 4.3. Base de Datos
 - ### Sistema de Gestión de Base de Datos: 
-    SQLite para la facilidad de mostrar el proyecto.
+    SQLite para la facilidad a mostrar el proyecto.
 
 - ### Tablas principales: 
     Usuarios, productos, categorías, pedidos, pagos.
