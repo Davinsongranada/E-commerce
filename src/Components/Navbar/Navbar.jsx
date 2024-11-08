@@ -16,6 +16,7 @@ export default function Navbar() {
         <li>
           <NavLink
             to="/todo"
+            onClick={()=> context.setSearchByCategory("")}
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             Todo
@@ -24,6 +25,7 @@ export default function Navbar() {
         <li>
           <NavLink
             to="/menaje"
+            onClick={()=> context.setSearchByCategory("menaje")}
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             Menaje
@@ -32,6 +34,7 @@ export default function Navbar() {
         <li>
           <NavLink
             to="/electrodomesticos"
+            onClick={()=> context.setSearchByCategory("electrodomesticos")}
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             Electrodomesticos
@@ -40,6 +43,7 @@ export default function Navbar() {
         <li>
           <NavLink
             to="/otros"
+            onClick={()=> context.setSearchByCategory("otros")}
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             Otros
@@ -74,7 +78,7 @@ export default function Navbar() {
         <li className="flex">
           <ShoppingCartIcon className="h-6 w-6 text-black">
           </ShoppingCartIcon>
-          <div>{context.count}</div>
+          <div>{context.cartProducts.length}</div>
         </li>
       </ul>
     </nav>

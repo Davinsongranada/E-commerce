@@ -6,6 +6,26 @@ import { ShoppingCartContext } from "../../Context/Context";
 
 export default function Home() {
   const context = useContext(ShoppingCartContext);
+
+  const renderView = () => {
+    if (context.searchByTitle?.length > 0) {
+      if (context.filteredItems?.length > 0) {
+        return (
+          context.filteredItems?.map((item) => (
+          <Card key={item.id} data={item} />
+        ))
+      )
+      } else{
+        return(
+          <>
+          <h1>No hay coincidencias</h1>
+          </>
+        )
+      }
+    } else {
+      return context.items?.map((item) => <Card key={item.id} data={item} />);
+    }
+  };
   return (
     <Layout>
       <div className="flex w-80 items-center relative justify-center mb-4">
@@ -16,13 +36,11 @@ export default function Home() {
         type="text"
         placeholder="Busca un producto"
         onChange={(e) => {
-          context.setSearchByTitle(e.target.value)
+          context.setSearchByTitle(e.target.value);
         }}
       />
       <div className="grid gap-4 grid-cols-4 w-full max-w-screen-lg">
-        {context.items?.map((item) => (
-          <Card key={item.id} data={item} />
-        ))}
+        {renderView()}
       </div>
       <ProductDetail />
     </Layout>
