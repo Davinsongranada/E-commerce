@@ -1,22 +1,20 @@
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from main import createTabla
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+import sqlite3
 
 app = FastAPI()
 
+class User(BaseModel):
+    id: int
+    name: str
+    email: str
 
-origins = [
-    "*"
-]
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+conn = sqlite3.connect('electrodomesticos.db')
 
-@app.get("/")
-def read_root():
-    return createTabla()
+@app.get("/productos")
+async def get_users():
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM productos")
+    producto = cursor.fetchall()
+    return producto

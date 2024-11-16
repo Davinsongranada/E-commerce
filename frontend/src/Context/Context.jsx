@@ -43,10 +43,10 @@ export default function ContextProvider({ children }) {
   
   // Get product by category
   const [searchByCategory,setSearchByCategory] = useState(null);
-  
+
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/")
+    fetch("http://127.0.0.1:8000/productos")
       .then((response) => response.json())
       .then((data) => setItems(data));
   }, []);
