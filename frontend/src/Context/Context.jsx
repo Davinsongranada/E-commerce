@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 
+
 export const ShoppingCartContext = createContext();
 
 export default function ContextProvider({ children }) {
